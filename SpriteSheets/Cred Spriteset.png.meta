@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 8c225ee861dd326479bb6883b8a14ec4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Cred Spriteset_0
+  - first:
+      213: 21300002
+    second: Cred Spriteset_1
+  - first:
+      213: 21300004
+    second: Cred Spriteset_2
+  - first:
+      213: 21300006
+    second: Cred Spriteset_3
+  - first:
+      213: 21300008
+    second: Cred Spriteset_4
+  - first:
+      213: 21300010
+    second: Cred Spriteset_5
+  - first:
+      213: 21300012
+    second: Cred Spriteset_6
+  - first:
+      213: 21300014
+    second: Cred Spriteset_7
+  - first:
+      213: 21300016
+    second: Cred Spriteset_8
+  - first:
+      213: 21300018
+    second: Cred Spriteset_9
+  - first:
+      213: 21300020
+    second: Cred Spriteset_10
+  - first:
+      213: 21300022
+    second: Cred Spriteset_11
+  - first:
+      213: 21300024
+    second: Cred Spriteset_12
+  - first:
+      213: 21300026
+    second: Cred Spriteset_13
+  - first:
+      213: 21300028
+    second: Cred Spriteset_14
+  - first:
+      213: 21300030
+    second: Cred Spriteset_15
+  - first:
+      213: 21300032
+    second: Cred Spriteset_16
+  - first:
+      213: 21300034
+    second: Cred Spriteset_17
+  - first:
+      213: 21300036
+    second: Cred Spriteset_18
+  - first:
+      213: 21300038
+    second: Cred Spriteset_19
+  - first:
+      213: 21300040
+    second: Cred Spriteset_20
+  - first:
+      213: 21300042
+    second: Cred Spriteset_21
+  - first:
+      213: 856642206621128563
+    second: Cred Spriteset_0
+  - first:
+      213: -2070082747474394390
+    second: Cred Spriteset_1
+  - first:
+      213: 6843673136706873576
+    second: Cred Spriteset_2
+  - first:
+      213: 4883815640779673061
+    second: Cred Spriteset_3
+  - first:
+      213: -6079922422103098959
+    second: Cred Spriteset_4
+  - first:
+      213: 8686396042357151710
+    second: Cred Spriteset_5
+  - first:
+      213: 3232047577367981928
+    second: Cred Spriteset_6
+  - first:
+      213: -4861621101087565962
+    second: Cred Spriteset_7
+  - first:
+      213: 2549746115813701474
+    second: Cred Spriteset_8
+  - first:
+      213: -8319253335298948066
+    second: Cred Spriteset_9
+  - first:
+      213: -2218821380215221320
+    second: Cred Spriteset_10
+  - first:
+      213: -2712306390456265088
+    second: Cred Spriteset_11
+  - first:
+      213: 6313621825361188638
+    second: Cred Spriteset_12
+  - first:
+      213: -7650069696837361253
+    second: Cred Spriteset_13
+  - first:
+      213: 7013611037864315400
+    second: Cred Spriteset_14
+  - first:
+      213: 1163426565209354761
+    second: Cred Spriteset_15
+  - first:
+      213: 8117436719293205734
+    second: Cred Spriteset_16
+  - first:
+      213: -729215204704191717
+    second: Cred Spriteset_17
+  - first:
+      213: 7616617695977030458
+    second: Cred Spriteset_18
+  - first:
+      213: 189530916963957218
+    second: Cred Spriteset_19
+  - first:
+      213: 7903377666661384022
+    second: Cred Spriteset_20
+  - first:
+      213: -4274842664585409903
+    second: Cred Spriteset_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cred Spriteset_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 376
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37752495c8763eb00800000000000000
+      internalID: 856642206621128563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 376
+        width: 81
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2cf1d75b69543e0800000000000000
+      internalID: -2070082747474394390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 266
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8eb40657c99fe50800000000000000
+      internalID: 6843673136706873576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 266
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed4b21237cc6c340800000000000000
+      internalID: 4883815640779673061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 266
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9bc9815c6cf9ba0800000000000000
+      internalID: -6079922422103098959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 266
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed79e039d274c8870800000000000000
+      internalID: 8686396042357151710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_6
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 266
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f2e22c52a8adc20800000000000000
+      internalID: 3232047577367981928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_7
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 266
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d125dd5d088cb0800000000000000
+      internalID: -4861621101087565962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_8
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 266
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f18c4594826320800000000000000
+      internalID: 2549746115813701474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 153
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14c5093b231c8c80800000000000000
+      internalID: -8319253335298948066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 151
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3da34e5b92531e0800000000000000
+      internalID: -2218821380215221320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 149
+        width: 94
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08615d255b3fb5ad0800000000000000
+      internalID: -2712306390456265088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 162
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e179ec2699d7e9750800000000000000
+      internalID: 6313621825361188638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 162
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91670d742e75d590800000000000000
+      internalID: -7650069696837361253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 162
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a49a8441a555160800000000000000
+      internalID: 7013611037864315400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9027e850c42552010800000000000000
+      internalID: 1163426565209354761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 41
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0f2c20bde6a070800000000000000
+      internalID: 8117436719293205734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_17
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 41
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bfac682ae41e5f0800000000000000
+      internalID: -729215204704191717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 41
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a334aae9079a3b960800000000000000
+      internalID: 7616617695977030458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_19
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 41
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e937936d5951a200800000000000000
+      internalID: 189530916963957218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 41
+        width: 75
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f7b1b2d107ead60800000000000000
+      internalID: 7903377666661384022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cred Spriteset_21
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 41
+        width: 89
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ac3b2ee35bca4c0800000000000000
+      internalID: -4274842664585409903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 10eb76a44d0b5d74b99575e5553b92e7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
