@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,9 +8,14 @@ using System.IO;
 // Add System.Security.Crytography to use Encryption!
 using System.Security.Cryptography;
 
-public class DataEncrpytion : MonoBehaviour
+public class DataEcryption : MonoBehaviour
 {
     Dictionary<string, string> userPass = new Dictionary<string, string>();
+    Dictionary<string, string> QA = new Dictionary<string, string>();
+
+    List<Dictionary<string, string>> allQA = new List<Dictionary<string, string>>();
+
+    string newQA = "";
 
     string privateKey = "abc123";
 
@@ -18,13 +23,74 @@ public class DataEncrpytion : MonoBehaviour
 
     public Text passwordText;
     public Text accountText;
+    public Text questionText;
+    public Text answerText;
 
     public InputField account;
     public InputField password;
+    public InputField question;
+    public InputField answer;
 
-    private void Start()
+    public void UpdateQuestions()
     {
-       
+        userPass.Add(account.text, password.text);
+        // Add account information to dictionary
+
+        bool hasAccount = false;
+
+        // Does allQA contain a QA with the current account name?
+
+        if (allQA.Count > 0)
+        {
+
+            foreach (Dictionary<string, string> qa in allQA)
+            {
+                foreach (KeyValuePair<string, string> value in qa)
+                {
+                    if (value.Key == account.text)
+                    {
+                        hasAccount = true;
+                        // update information inside
+
+                    }
+
+                }
+            }
+        }
+
+        if (!hasAccount)
+        {
+            QA.Add(account.text, password.text);
+
+            string key = question.GetComponent<InputField>().text;
+            //Debug.Log(QA[key]);
+            if (QA.ContainsKey(key))
+            {
+                QA.Remove(key);
+                QA.Add(key, answer.text);
+                //  Debug.Log(QA[key]);
+
+            }
+            else
+            {
+                QA.Add(key, answer.text);
+                //Debug.Log(QA[key]);
+            }
+
+            Dictionary<string, string> tempQA = QA;
+            allQA.Add(tempQA);
+            Debug.Log(allQA.Count);
+
+            //QA.Clear();
+
+        }
+
+
+        newQA += "," + account.text;
+        newQA += "," + question.text;
+        newQA += "," + answer.text;
+        
+
     }
 
     public void Login(GameObject key)
@@ -33,17 +99,109 @@ public class DataEncrpytion : MonoBehaviour
         {
             manager.SetActive(true);
             key.SetActive(false);
+
         }
     }
 
     public void LookUpAccount(GameObject account)
     {
+        readFile();
+
+        //Debug.Log(gameData.myQAlist);
+
+        int i = 0;
+        foreach (string key in gameData.usernames.Split(' '))
+        {
+            if (!userPass.ContainsKey(key))
+                userPass.Add(key, gameData.passwords.Split(' ')[i]);
+
+            i++;
+        }
+
+        i = 0;
+
+        
+
+       // Debug.Log(questions[0]);
+
+       /* foreach (string key in gameData.question.Split(' '))
+        {
+            Debug.Log(key);
+            if (key == account.GetComponent<InputField>().text)
+            {
+                if (!QA.ContainsKey(key))
+                    QA.Add(key, gameData.answer.Split(' ')[i]);
+
+            }
+            else
+            {
+                if (!QA.ContainsKey(key))
+                    QA.Add(key, gameData.answer.Split(' ')[i]);
+
+                // Display question and answers
+                foreach (KeyValuePair<string, string> qa in QA)
+                {
+
+                    // If first key in QA is equal to account lookup text
+                    if (qa.Key == account.GetComponent<InputField>().text)
+                    {
+                        continue;
+                    }
+                    {
+                        //  break
+                    }
+
+
+                    // Setting question text
+                    questionText.text = qa.Key;
+                    Debug.Log(qa.Key);
+                    // Setting answer text
+                    answerText.text = qa.Value;
+                    Debug.Log(qa.Value);
+                    break;
+
+                }
+
+
+                i++;
+            }
+
+           
+
+
+        }*/
         foreach (KeyValuePair<string, string> usernameAndPass in userPass)
         {
             if (account.GetComponent<InputField>().text == usernameAndPass.Key)
             {
                 accountText.text = usernameAndPass.Key;
                 passwordText.text = usernameAndPass.Value;
+            }
+
+        }
+
+        string[] questions = gameData.question.Split(',');
+        int index = 0;
+        foreach (string q in questions)
+        {
+            if (index > 0)
+            {
+                if (index == 2)
+                {
+                    answerText.text = q;
+                    break;
+                }
+                if (index == 1)
+                {
+                    questionText.text = q;
+                    index++;
+                }
+                
+            }
+
+            if (q == account.GetComponent<InputField>().text)
+            {
+                index++;
             }
         }
     }
@@ -52,7 +210,8 @@ public class DataEncrpytion : MonoBehaviour
     {
         if (account.text.Length > 0 && password.text.Length > 0)
         {
-            userPass.Add(account.text, password.text);
+            UpdateQuestions();
+            Debug.Log("Hello, finished saving information!");
         }
 
         writeFile();
@@ -74,8 +233,8 @@ public class DataEncrpytion : MonoBehaviour
     void Awake()
     {
         // Update the path once the persistent path exists.
-        saveFile = Application.persistentDataPath + "/gamedata.json";
-        readFile();
+        saveFile = Application.persistentDataPath + "/gamedata1.json";
+        //readFile();
     }
 
     public void readFile()
@@ -110,14 +269,6 @@ public class DataEncrpytion : MonoBehaviour
             // Deserialize the JSON data 
             //  into a pattern matching the GameData class.
             gameData = JsonUtility.FromJson<GameData>(text);
-            int i = 0;
-            foreach(string key in gameData.usernames.Split(','))
-            {
-
-                userPass.Add(key, gameData.passwords.Split(',')[i]);
-                Debug.Log(userPass[key]);
-                i++;
-            }
 
             // Close FileStream.
             dataStream.Close();
@@ -130,7 +281,7 @@ public class DataEncrpytion : MonoBehaviour
         Aes iAes = Aes.Create();
 
         // Create a FileStream for creating files.
-        dataStream = new FileStream(saveFile, FileMode.Open);
+        dataStream = new FileStream(saveFile, FileMode.Create);
 
         // Save the new generated IV.
         byte[] inputIV = iAes.IV;
@@ -147,10 +298,27 @@ public class DataEncrpytion : MonoBehaviour
         // Create StreamWriter, wrapping CryptoStream.
         StreamWriter sWriter = new StreamWriter(iStream);
 
-        foreach (KeyValuePair<string, string> value in userPass) {
-            gameData.usernames = gameData.usernames + "" + value.Key;
-            gameData.passwords = gameData.passwords + "" + value.Value;
+        foreach (KeyValuePair<string, string> value in userPass)
+        {
+            gameData.usernames = gameData.usernames + " " + value.Key;
+            gameData.passwords = gameData.passwords + " " + value.Value;
         }
+
+        gameData.question += newQA;
+        Debug.Log(gameData.question);
+        /*foreach (KeyValuePair<string, string> value in QA)
+        {
+            //TO DO
+            // We have list of QA dictionaries
+            // Need to separate each dictionary
+            // Then, separate each item in the dictionary to it's own string
+
+            gameData.question = gameData.question + " " + value.Key;
+            gameData.answer = gameData.answer + " " + value.Value;
+        }
+
+        gameData.myQAlist = allQA;
+        Debug.Log(gameData.myQAlist);*/
         // Serialize the object into JSON and save string.
         string jsonString = JsonUtility.ToJson(gameData);
         Debug.Log(jsonString);
@@ -173,4 +341,8 @@ public class GameData
 {
     public string usernames;
     public string passwords;
+    public string question;
+    public string answer;
+
+    public List<Dictionary<string, string>> myQAlist;
 }
